@@ -6,64 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Github users search app</title>
     <link rel="stylesheet" href="susan.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="search">
-        <div class="searchText">
-            <img src="images/1com-search.svg",alt=`` />
-            <input type="text" placeholder="search Github username.." />
+<div class="container"> 
+<div class="row">
+    <div class="card bg-light">
+        <div class="search d-flex n-2"> 
+            <input type="text" class="form-contral" placeholder="search username">
+            <button class="btn btn-outline-info">search</button>
         </div>
-        
-        <div class="searchbtn">search</div>
-        </div>
-
-        <div class="resultBody">
-            <div class="githubHead">
-                <div class="mainImg"></div>
-                <div class="githubInfo">
-                    <div class="githubUser",Github Username>
-                        <div class="githubUserName"><a href="">@githubusername</a></div>
-                        <div class="githubJoinedDate">joincute</div>
+        <div class="result d-flex">
+            <div class="image">
+                <img class="profile" src="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>username</h2>
+                <p>loremipsum loremipsum loremipsum loremipsum loremipsum</p>
+                <div class="follow">
+                    <div>
+                        <h1>followers</h1>
+                        <p>o</p>
+                    </div>
+                    <div class="following">
+                        <h1>following</h1>
+                        <p>0</p>
                     </div>
                 </div>
-
-                <di class="githubFact">
-                    <div class="githubBio">Github Bio...</div>
-                    </di>
-
-                    < class="githubRepo">
-                        <div class="repo">
-                            <div class="repository">repos</div>
-                            <div class="repopTotal">0</div>
-                        </div>
-
-                        <div class="followers">
-                            <div clas="followerHeading">followers</div>
-                            <div class="followingTotal">0</div>
-                        </div>
-
-                        <div class="following">
-                            <div class="followigHeading">following</div>
-                            <div class="followingTotal">0</div>
-                    </div>
-                    
-                    <div class="githubSocial">
-                        <div class="location">
-                            <img src="images/1com.location.svg",alt``>
-                            <p class="location"> location</p>
-                            </div>
-
-                    <div class="website">
-                        <img src="images/1com-website.svg" alt``>
-                        <p class="website">website</p>
-                    </div>
-
-                    <div class="company">
-                        <img src="images/1com-company.svg",alt``>
-                        <p class="companies">company</p>
-                    </div>
-                    </div>
-
+            </div>
+        </div>
+    </div>
+</div>
+</div>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
