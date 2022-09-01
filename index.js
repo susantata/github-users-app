@@ -1,21 +1,10 @@
-const input = document.querySelector ("input");
-const btn = document.querySelector ("viwerbtn");
-const viwer = document.querySelector ("githubviwer");
-const logi = document.querySelector ("githubusername");
-const joined = document.querySelector ("githubjoineddata");
-const repo = document.querySelector ("repoTotal");
-const follower = document.querySelector ("followerTotal");
-const following = document.querySelector ("followingTotal");
-const location = document.querySelector ("location");
-const twit = document.querySelector ("twit");
-const website = document.querySelector ("website");
-const companies = document.querySelector ("companies");
-const gitbio= document.querySelector ("githubbio");
+//https://api.github.com/users/user_name/repos
 
-
-let img = document.createElement("img");
-let block = document.querySelector("mailing");
-
-
-btn.addEventListener("click", funtion);
-const url = "https://api.github.com/users/s{input,value}";
+const user_img = document.querySelector(".profile");
+const userName = document.querySelector("#input").value;
+const following = document.querySelector(".following");
+const  followers = document.querySelector(".followers");
+const repos = document.querySelector(".repos");
+const  btn = document.querySelector("#btn");
+const url = `https://api.github.com/user/${userName}`;
+document.addEventListener("DOMContentLoaded",fetchInfo)
