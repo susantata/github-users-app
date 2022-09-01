@@ -327,4 +327,14 @@ location 1mg
     .githubRepo {
         width: 279px;
     }
+
+    .githubSocial {
+        grid-template-columns: 279px;
+    }
+
+    .repoTotal,
+    .follewTotal,
+    .followingTotal {
+        text-align: center;
+    }
     }
