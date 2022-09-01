@@ -5,7 +5,7 @@
 
 
 body{
-    background-color: (var--bg-color);
+    background-color: white;
     width: 100%;
     height: 100%
     display: flex;
@@ -92,7 +92,7 @@ header {
 .searchBtn {
     height: 50px;
     width: 106px;
-    background-color: var(--search-bg-color-);
+    background-color: 
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -297,5 +297,34 @@ location 1mg
     .resultBody .mailning img {
         width: 60px;
         height: 60px;
+    }
+
+    .githubInfo {
+        width: 200px;
+    }
+
+    .githubUser {
+        font-size: 18px;
+    }
+
+    .githubUserName {
+        margine-top: -5px;
+    }
+
+    .githubJoinedData {
+        top: 48px;
+    }
+    .githubUserName a,
+    .githubJoinedData,
+    .githubBio {
+        font-size: 279px;
+    }
+
+    .githubBio {
+        margine-top: 25px;
+    }
+
+    .githubRepo {
+        width: 279px;
     }
     }
