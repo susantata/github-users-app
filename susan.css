@@ -1,13 +1,13 @@
-{
-    margine: 0;
+*{
+    margin: 0;
     padding: 0;
 }
 
 
 body{
-    background-color: white;
+    background-color: blue;
     width: 100%;
-    height: 100%
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@ body{
 header {
     display: fiex;
     justify-content: space-between;
-    alighn-items: center;
+    align-items: center;
     width: 730px;
     margin-bottom: 25px;
 }
@@ -36,13 +36,13 @@ header {
 
 .color-mode_btn {
     font-size: 13px;
-    outline: none'
-    background-color"var(--body-bg-color-);
+    outline: none;
+    background-color: var(--body-bg-color-);
     border: none;
     cursor: pointer;
     color: var(--darklight-color-);
     display: flex;
-    align-items: center
+    align-items: center;
     width: 78px;
     justify-content: space-between;
 }
@@ -59,22 +59,22 @@ header {
     background-color: var(--search-bg-color-);
     border-radius: 15px;
     display: flex;
-    alighn-items: center;
+    align-items: center;
     justify-content: space-between;
 }
 
 .searchText {
     display: flex;
-    alighn-items: center;
+    align-items: center;
     height: 100%;
 }
 
 .searchText img {
-    margine-left: 35px;
+    margin-left: 35px;
 }
 
 .searchText input {
-    margine-left: 20px;
+    margin-left: 20px;
     height: 100%;
     width: 500px;
     border: none;
@@ -84,7 +84,7 @@ header {
     background-color: var(--search-bg-color-);
 }
 
-;;placeHolder {
+::placeHolder {
     color: var(--search-color-);
     opacity: 1;
 }
@@ -92,14 +92,14 @@ header {
 .searchBtn {
     height: 50px;
     width: 106px;
-    background-color: 
+    background-color: white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center; 
     font-size: 16px;
     color:   white;
-    margine-right: 10px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -108,20 +108,20 @@ header {
     width: 730px;
     height: 419px;
     border-radius: 15px;
-    margine-top: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.resultBody .moining {
+.resultBody .maining {
     width: 117px;
     height: 117px;
     border: 1px solid var(--black);
     object-fit: contain;
 }
 
-.resultBody .moining {
+.resultBody .maining {
     object-fit: contain;
     width: 117px;
     height: 117px;
@@ -133,7 +133,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 650px;
-    margine-top: 30px;
+    margin-top: 30px;
 }
 
 .githubUser{
@@ -151,18 +151,18 @@ header {
 }
 
 .githubInfo {
-    height: 100px
+    height: 100px;
     width:480px;
 position: reletive;
 }
 
 .githubUserName {
-    margine-top: 5px;
+    margin-top: 5px;
 }
 
 .githubUserName {
     font-size: 16px;
-    color: 
+    color: black;
     text-decoration:none;
 }
 
@@ -177,7 +177,7 @@ position: reletive;
     width: 480px;
     height: 25px;
     color: var(--search-color-);
-    margine-top: -20px;
+    margin-top: -20px;
     margin-bottom: 30px;
 }
  
@@ -202,9 +202,9 @@ font-weight: bold;
 .githubSocial {
     display: grid;
     grid-template-columns: 240px 240px;
-    raw-gap: 1-2cm;
+    row-gap: 1-2cm;
     color: var(--social-color-);
-    margine-top: 30px;
+    margin-top: 30px;
 }
 
 .location,
@@ -216,19 +216,19 @@ font-weight: bold;
     font-size: 15px;
 }
  
-location 1mg
-.twitter 1mg
-.website 1mg
-.company 1mg {
-    margine-right: 10px;
+location img
+.twitter img
+.website img
+.company img {
+    margin-right: 10px;
 }
 
-@media screen andv(max-width: 769px) {
+@media screen and(max-width: 769px) {
     header,
     .search {
         width: 574px;
     }
-
+}
 .searchText input {
     width: 400px;
 }
@@ -257,18 +257,18 @@ location 1mg
 }
 
 .githubFact { 
-     margine-top: 25px;
+     margin-top: 25px;
 }
 @media screen and  (max-width: 415px) {
     header,
     .search {
         width: 327px;
-        margine-left: 10px;
+        margin-left: 10px;
         height: 60px;
     }
-
+}
     .searchBtn img {
-        margine-left: 15px;
+        margin-left: 15px;
     }
 
     .searchText input {
@@ -308,7 +308,7 @@ location 1mg
     }
 
     .githubUserName {
-        margine-top: -5px;
+        margin-top: -5px;
     }
 
     .githubJoinedData {
@@ -317,11 +317,11 @@ location 1mg
     .githubUserName a,
     .githubJoinedData,
     .githubBio {
-        font-size: 279px;
+        font-size: 30px;
     }
 
     .githubBio {
-        margine-top: 25px;
+        margin-top: 25px;
     }
 
     .githubRepo {
@@ -337,4 +337,4 @@ location 1mg
     .followingTotal {
         text-align: center;
     }
-    }
+    

@@ -11,3 +11,11 @@ const twit = document.querySelector ("twit");
 const website = document.querySelector ("website");
 const companies = document.querySelector ("companies");
 const gitbio= document.querySelector ("githubbio");
+
+
+let img = document.createElement("img");
+let block = document.querySelector("mailing");
+
+
+btn.addEventListener("click", funtion);
+const url = "https://api.github.com/users/s{input,value}";
