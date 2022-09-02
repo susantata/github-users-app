@@ -1,13 +1,31 @@
 .card {
-    height: 90vh;
+    height: 70vh;
     width: 100vh;
     margin-top: 5em;
+    border-radius: 10px;
+    background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 206, 253, 1) 100%);
 
 }
+.fwr{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.flw{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .rep{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
 
 .profile {
     width: 60%;
-    height: 60%;
+    height: 80%;
     border-radius: 50%;
     
 }
@@ -15,14 +33,25 @@
     display: flex;
     gap: 1em;
     font-size: 1em;
+    text-align: center;
+    margin: auto;
 }
 .content {
-    width: 50%;
-    font-size: 1em;
+    width: 90%;
+    font-size: 0.8em;
+    margin: auto;
+    text-align: start;
+    
+}
+.info{
+    width: 90%;
+    margin: auto;
+    font-size: 0.8em;
 }
 .result {
     gap: 1em;
     justify-content: center;
+    margin: auto;
     display: flex;
     width: 90%;
 }
@@ -38,7 +67,7 @@
 .search {
     align-items: center;
     gap: 10em;
-    padding: 5em;
+    padding: 1.5em;
     width: 90%;
     margin: auto;
     justify-content: center;
