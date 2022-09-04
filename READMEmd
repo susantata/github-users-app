@@ -30,7 +30,7 @@ Initialize git on your terminal.
 
 git clone git@github.com:susantata/github-users-app.
 
-open the 'intoxica' folder.
+open the 'Github web users' folder.
 
 Open the file named index.html on your preferred browser.
 
@@ -43,8 +43,7 @@ Click Submit.
 Wait for the response from the web application to get your cocktail info, steps and preparation procedure.
 
 # Events
-
-Load, submit, click
+Followers  Following  Repos
 
 # API used
 
