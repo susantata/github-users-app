@@ -45,7 +45,7 @@ function fetchRepos() {
     })
 }
 
-function fetchFollowing() {
+function fetchfollowing() {
     return fetch(url + input.value + `/following`)
         .then(resp => resp.json())
         .then(flw => {

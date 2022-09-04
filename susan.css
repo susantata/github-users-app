@@ -71,8 +71,8 @@
     width: 90%;
     margin: auto;
     justify-content: center;
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,62,1) 100%);
+    background: rgb(34, 163, 163);
+background: linear-gradient(0deg, rgb(62, 184, 184) 0%, rgb(94, 123, 97) 100%);
 height: 20px;
 }
 .image {
