@@ -5,8 +5,8 @@
     border-radius: 10px;
     background: rgb(34, 193, 195);
     background: rgb(2,0,36);
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,98,166,0.7091211484593838) 41%, rgba(0,212,255,1) 100%);
+    background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,98,166,0.7091211484593838) 41%, rgba(0,212,255,1) 100%); 
+
 
 }
 .fwr{
@@ -73,8 +73,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,98,166,0.70912114
     width: 90%;
     margin: auto;
     justify-content: center;
-    background: rgb(34, 163, 163);
-background: linear-gradient(0deg, rgb(62, 184, 184) 0%, rgb(94, 123, 97) 100%);
+    background: rgb(34, 43, 163);
+background: linear-gradient(0deg, rgb(76, 62, 184) 0%, rgb(94, 99, 123) 100%);
 height: 20px;
 }
 .image {
