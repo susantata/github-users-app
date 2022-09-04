@@ -32,13 +32,11 @@ open the 'Github web users' folder.
 
 Open the file named index.html on your preferred browser.
 
-Enter cocktail of choice into the input boxes.
+Enter the name of the person you wish to search.
 
-You use any known word or ingredient
+Click search.
 
-Click Submit.
-
-Wait for the response from the web application to get your cocktail info, steps and preparation procedure.
+Wait for the response from the web application to get your the responce for the name  you have searched for.
 
 # Events
 Followers  Following  Repos
