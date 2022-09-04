@@ -38,13 +38,14 @@ Click the search button.
 Wait for the response from the web .
 
 # Events
-Followers  Following  Repos
+
+Followers , following , repos
 
 # API used
 
 https://api.github.com
 
-# License
+# Free License
 
 
 <<<<<<< HEAD

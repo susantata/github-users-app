@@ -4,7 +4,9 @@
     margin-top: 5em;
     border-radius: 10px;
     background: rgb(34, 193, 195);
-        background: linear-gradient(0deg, rgb(14, 77, 78) 0%, rgb(23, 71, 86) 100%);
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,98,166,0.7091211484593838) 41%, rgba(0,212,255,1) 100%);
 
 }
 .fwr{
