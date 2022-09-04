@@ -6,9 +6,7 @@ Welcome to Github web users app. You wanna get intoxicated? This is the right ap
 
 # Github web users app .
 
-<p align="center">
-  <img src="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg" width="40" justify-content="center" align-items="cente">
-</p>
+
 
 # Prerequisites
 
@@ -47,7 +45,7 @@ Followers  Following  Repos
 
 # API used
 
-https://thecocktaildb.com
+https://api.github.com
 
 # License
 
