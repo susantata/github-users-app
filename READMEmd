@@ -2,10 +2,7 @@
 
 > > > > > > > Susan Tata
 
-Welcome to Github web users app. You wanna get intoxicated? This is the right app for you. Prepare any kind of cocktail at your comfort.
-
-# Github web users app .
-
+Welcome to Github web users app. You wanna get the code information that you want.
 
 
 # Prerequisites
@@ -32,11 +29,13 @@ open the 'Github web users' folder.
 
 Open the file named index.html on your preferred browser.
 
-Enter the name of the person you wish to search.
+Enter the name of the person you wanted to look for.
 
-Click search.
+You use any known name.
 
-Wait for the response from the web application to get your the responce for the name  you have searched for.
+Click the search button. 
+
+Wait for the response from the web .
 
 # Events
 Followers  Following  Repos
@@ -46,6 +45,7 @@ Followers  Following  Repos
 https://api.github.com
 
 # License
+
 
 <<<<<<< HEAD
 
